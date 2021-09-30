@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    /* position: relative */
+}
+.bg{
+    background-image: url(./minion.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* position: absolute; */
+    margin: 0 auto;
+    max-width: 90%;
+    height: 85vh;
+    background-color: white;
+    border-radius: 1rem;
+}
+nav.h2{
+    margin: 0;
+}
+nav{
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding:1rem ;
+    background-color: black;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav h1{
+    margin: 1.5rem 0;
+}
+
+.nav-para{
+    font-size: small;
+}
+
+.txt-input{
+    display: block;
+    /* text-align: center; */
+    width: 80%;
+    margin: auto;
+    height: 10vh;
+    border: 3px solid yellow;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: medium;
+}
+.btn{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 2rem;
+    height: 1rem; */
+    background-color: yellow; 
+    border: none;
+    padding: 0.75rem;  
+    border-radius: 1rem;
+    width: 30%;
+    font-size: medium;
+    margin-top: 1.5rem;
+}
+
+.para{
+    font-size: small;
+    text-align: center;
+    padding-top: 0.75rem;
+}
+
+.output{
+    margin: auto;
+    width: 80%;
+    border: 2px solid yellow;
+    height: 10vh;
+    /* margin: 1rem; */
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
